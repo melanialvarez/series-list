@@ -1,0 +1,25 @@
+.shows-list {
+  margin: 0 auto;
+  width: 60%;
+  padding: 15px 5%;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.shows-list li {
+  list-style: none;
+  background: white;
+  padding: 10px 10px;
+  border-left: 3px solid #f5b133;
+  margin: 11px 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.shows-list li:hover {
+  background-color: #f5b133;
+}
+
+.shows-list li a {
+  text-decoration: none;
+  color: black;
+}
